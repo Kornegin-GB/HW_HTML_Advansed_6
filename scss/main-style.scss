@@ -153,7 +153,7 @@ a {
    margin-bottom: 97px;
    &__box {
       display: grid;
-      grid-template-columns: repeat(3, mminmax(232px, 360px));
+      grid-template-columns: repeat(3, minmax(232px, 360px));
       gap: $gapGrid;
    }
    &__item {
@@ -242,6 +242,7 @@ a {
    width: $thirdSite;
    display: flex;
    flex-direction: column;
+   text-align: left;
    &__box {
       @include centerFlex;
       gap: $gapGrid;
@@ -310,9 +311,9 @@ a {
    color: $textColorHover;
    padding-top: 103px;
    padding-bottom: 104px;
-   // margin-top: 95px;
    &__box {
       @include centerFlex;
+      box-sizing: border-box;
       gap: $gapGrid;
    }
    &__item {
@@ -413,6 +414,7 @@ a {
       align-items: center;
       color: $textColor;
       padding-left: 22px;
+      box-sizing: border-box;
       opacity: 0.67;
       outline: none;
    }
