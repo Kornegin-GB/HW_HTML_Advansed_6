@@ -105,9 +105,10 @@
    }
    &__setting-menu {
       font-size: 14px;
+      font-weight: $font-400;
       color: #6f6e6e;
       @include centerFlex;
-      gap: 42px;
+      gap: 23px;
       margin-bottom: 49px;
    }
    &__arrow-bottom {
